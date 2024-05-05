@@ -1,0 +1,35 @@
+.inputcontainer {
+    margin-bottom: 20px;
+}
+
+.inputText {
+    font-size: 17px;
+    line-height: 1.33;
+    letter-spacing: -.01em;
+
+    margin-bottom: 5px;
+}
+
+.searchcontainer {
+    width: 270px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formInput {
+    width: 450px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    background-color: #F6F6F6;
+    outline: transparent;
+    transition: border-color .4s cubic-bezier(.4, 0, .2, 1), box-shadow .6s cubic-bezier(.4, 0, .2, 1);
+    padding: 10px 20px;
+    
+}
+
+.formInput:hover,
+.formInput:focus {
+    border-color: #646864;
+    box-shadow: 0 4px 4px #00000026;
+}
+
